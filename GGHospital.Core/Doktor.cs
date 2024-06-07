@@ -22,6 +22,7 @@ namespace GGHospital.Entities
         public string Soyad { get; set; }
 
         [MaxLength(11)]
+        [MinLength(11)]
         [Required]
         public string Tc { get; set; }
 
@@ -35,6 +36,7 @@ namespace GGHospital.Entities
         public string Sifre { get; set; }
 
         [MaxLength(13)]
+        [MinLength(13)]
         [Required]
         public string Telefon { get; set; }
 
