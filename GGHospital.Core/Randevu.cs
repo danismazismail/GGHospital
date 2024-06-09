@@ -18,9 +18,10 @@ namespace GGHospital.Entities
         [Required]
         public int DoktorID { get; set; }
         [Required]
-        public int  HastaID { get; set; }
+        public int HastaID { get; set; }
         [ForeignKey("DoktorID")]
         public virtual Doktor Doktor { get; set; }
         [ForeignKey("HastaID")]
         public virtual Hasta Hasta { get; set; }
     }
+}
