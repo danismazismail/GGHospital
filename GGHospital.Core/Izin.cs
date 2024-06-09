@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GGHospital.Entities
 {
+    [Table("Izin")]
     public class Izin
     {
         [Key]

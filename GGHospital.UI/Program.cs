@@ -1,7 +1,11 @@
+using GGHospital.Entities;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<GGHospitalContext>(options => options.UseSqlServer("server=LAPTOP-4BBLR3QE;Database=GGHospitalDB;trusted_connection=true;TrustServerCertificate=true"));
 
 var app = builder.Build();
 

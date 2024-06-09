@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace GGHospital.Entities
 {
+    [Table("Randevu")]
     public class Randevu
     {
         [Key]
