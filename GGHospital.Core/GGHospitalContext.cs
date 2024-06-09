@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GGHospital.Entities
 {
@@ -20,7 +18,7 @@ namespace GGHospital.Entities
         public DbSet<Rol> Rol { get; set; }
         public DbSet<Bolum> Bolum { get; set; }
         public DbSet<Doktor> Doktor { get; set; }
-        public DbSet<DoktorIzin> DoktorIzin { get; set; }
+        
         public DbSet<Izin> Izin { get; set; }
     }
 }

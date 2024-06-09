@@ -10,5 +10,6 @@ namespace GGHospital.Entities
         [Required]
         [MaxLength(50)]
         public string BolumAdi { get; set; }
+        public List<Doktor> Doktorlar { get; set; }
     }
 }
