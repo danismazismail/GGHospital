@@ -17,6 +17,6 @@ namespace GGHospital.Entities
         public int DoktorID { get; set; }
 
         [ForeignKey("DoktorID")]
-        public virtual List<Doktor> Doktor { get; set; }
+        public Doktor Doktor { get; set; }
     }
 }

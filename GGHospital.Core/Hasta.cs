@@ -35,6 +35,7 @@ namespace GGHospital.Entities
         [Required]
         public int RolID { get; set; }
         [ForeignKey("RolID")]
-        public virtual Rol Rol { get; set; }
+        public Rol Rol { get; set; }
+        public List<Randevu> Randevular { get; set; }
     }
 }

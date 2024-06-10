@@ -50,7 +50,8 @@ namespace GGHospital.Entities
         public virtual Bolum Bolum { get; set; }
 
         [ForeignKey("RolID")]
-        public virtual Rol Rol { get; set; }
-        public List<Izin> Izınler { get; set; }
+        public  Rol Rol { get; set; }
+        public List<Izin> Izinler { get; set; }
+        public List<Randevu> Randevular { get; set; }
     }
 }
