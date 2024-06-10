@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace GGHospital.Entities
 {
-    [Table("Hasta")]
     public class Hasta
     {
         [Key]
@@ -37,6 +36,5 @@ namespace GGHospital.Entities
         public int RolID { get; set; }
         [ForeignKey("RolID")]
         public virtual Rol Rol { get; set; }
-
     }
 }

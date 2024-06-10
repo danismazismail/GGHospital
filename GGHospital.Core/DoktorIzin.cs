@@ -8,20 +8,21 @@ using System.Threading.Tasks;
 
 namespace GGHospital.Entities
 {
-    public class Randevu
+    public class DoktorIzin
     {
         [Key]
-        public int RandevuID { get; set; }
-        [Required]
-        public DateTime RandevuTarihi { get; set; }
+        public int DoktorIzinID { get; set; }
 
         [Required]
         public int DoktorID { get; set; }
+
         [Required]
-        public int HastaID { get; set; }
+        public int IzinID { get; set; }
+
         [ForeignKey("DoktorID")]
         public virtual Doktor Doktor { get; set; }
-        [ForeignKey("HastaID")]
-        public virtual Hasta Hasta { get; set; }
+
+        [ForeignKey("IzinID")]
+        public virtual Izin Izin { get; set; }
     }
 }
