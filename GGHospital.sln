@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGHospital.UI", "GGHospital.UI\GGHospital.UI.csproj", "{8879D0C8-61CB-458F-ADFF-F7EFEA6307EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGHospital.UI", "GGHospital.UI\GGHospital.UI.csproj", "{8879D0C8-61CB-458F-ADFF-F7EFEA6307EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGHospital.Entities", "GGHospital.Core\GGHospital.Entities.csproj", "{6C03E2F2-115B-407F-B245-53BC4419EDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGHospital.Entities", "GGHospital.Core\GGHospital.Entities.csproj", "{6C03E2F2-115B-407F-B245-53BC4419EDF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGHospital.Dal", "GGHospital.Dal\GGHospital.Dal.csproj", "{3477798D-37E6-4809-9989-B39F1D9CB2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGHospital.Dal", "GGHospital.Dal\GGHospital.Dal.csproj", "{3477798D-37E6-4809-9989-B39F1D9CB2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGHospital.Dto", "GGHospital.Dto\GGHospital.Dto.csproj", "{2901B4D1-A4A5-4404-BA75-9BB77EA93D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGHospital.Dto", "GGHospital.Dto\GGHospital.Dto.csproj", "{2901B4D1-A4A5-4404-BA75-9BB77EA93D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGHospital.Business", "GGHospital.Business\GGHospital.Business.csproj", "{92C2E5BC-DF02-449C-8759-572CEB2F05DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GGHospital.Business", "GGHospital.Business\GGHospital.Business.csproj", "{92C2E5BC-DF02-449C-8759-572CEB2F05DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
