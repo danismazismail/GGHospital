@@ -17,8 +17,7 @@ namespace GGHospital.Entities
         public DbSet<Randevu> Randevu { get; set; }
         public DbSet<Rol> Rol { get; set; }
         public DbSet<Bolum> Bolum { get; set; }
-        public DbSet<Doktor> Doktor { get; set; }
-        
+        public DbSet<Doktor> Doktor { get; set; }        
         public DbSet<Izin> Izin { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
