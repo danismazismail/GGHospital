@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\GGHospital.Core\GGHospital.Entities.csproj" />
+    <ProjectReference Include="..\GGHospital.Dto\GGHospital.Dto.csproj" />
   </ItemGroup>
 
 </Project>
